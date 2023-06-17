@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "predSamp",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "js-queue-items",
+      "connection": "sftpagentgroupa4ac_STORAGE"
+    },
+    {
+      "name": "allProd",
+      "type": "queue",
+      "direction": "out",
+      "queueName": "js-queue-items",
+      "connection": "sftpagentgroupa4ac_STORAGE"
+    }
+  ]
+}

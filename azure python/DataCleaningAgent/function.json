@@ -1,0 +1,21 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "*/40 * * * * *"
+    },
+    {
+      "name": "msg",
+      "type": "serviceBus",
+      "direction": "out",
+      "queueName": "myinputqueue",
+      "connection": "ServiceBusConnection",
+      "message": {
+        "contentType": "application/json"
+      }
+    }
+  ]
+}

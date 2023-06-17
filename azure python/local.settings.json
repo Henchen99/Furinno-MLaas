@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "Environment": "Development",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobs.TimerTrigger1.Disabled": "false",
+    "sftpagentgroupa4ac_STORAGE": "DefaultEndpointsProtocol=https;AccountName=sftpagentgroupa4ac;AccountKey=4V95xpvoK2THUxuxlBqFDfLstMO/UbTG3Ot8jYuH559fYPXe+DVujiLtcatxyI00NU/2rbL4Crgo+AStDfvRaw==;EndpointSuffix=core.windows.net",
+    "QueueConnectionString": "<STORAGE_CONNECTION_STRING>",
+    "STORAGE_CONTAINER_NAME": "sftpagentgroupa4ac",
+    "STORAGE_TABLE_NAME": "status",
+    "ServiceBusConnection": "Endpoint=sb://furinnoforecastpipeline.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Xh0hSUVXEwqs8763+sHe6uGKJ73gdkBMW+ASbPsxbl4="
+  }
+}

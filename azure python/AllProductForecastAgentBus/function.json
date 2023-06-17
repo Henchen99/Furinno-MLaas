@@ -1,0 +1,22 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "predSamp",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "myinputqueue2",
+      "connection": "ServiceBusConnection"
+    },
+    {
+      "name": "allProd",
+      "type": "serviceBus",
+      "direction": "out",
+      "queueName": "myinputqueue3",
+      "connection": "ServiceBusConnection",
+      "message": {
+        "contentType": "application/json"
+      }
+    }
+  ]
+}
